@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nft_arb_reg"
+version = "0.1.0"
+description = "Forecasting Axie pricing and arbitrage"
+authors = ["Carlos Vecina Tebar <carlos.vecina@cunef.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.0"
+selenium = "^4.1.0"
+catboost = "^1.0.4"
+sklearn = "^0.0"
+discord = "^1.7.3"
+webdriver-manager = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+numpy = "^1.22.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
